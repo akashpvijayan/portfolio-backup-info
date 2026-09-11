@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Portfolio Assistant Backups</title>
+  <meta name="description" content="Information about Portfolio Assistant Backups, a personal utility for storing and restoring encrypted backups in the owner's Google Drive.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23152438'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='sans-serif' font-size='20' font-weight='700' fill='white'%3EP%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead"><div class="wrap"><a class="brand" href="index.html">Portfolio Assistant Backups</a><nav aria-label="Main navigation"><a href="index.html" aria-current="page">About</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav></div></header>
+  <main id="main" class="wrap">
+    <p class="eyebrow">Personal backup utility</p>
+    <h1>Portfolio Assistant Backups</h1>
+    <p class="lead">A personal utility for keeping encrypted copies of Portfolio Assistant records in the owner's Google Drive and checking that those copies can be recovered.</p>
+    <div class="note"><p>Operated by Akash P Vijayan for his own account. This website provides app information; Google authorization is completed separately during the utility's setup.</p></div>
+    <h2>What the utility is for</h2>
+    <p>The backup workflow creates a copy of the application's database with a corresponding journal checkpoint, encrypts the backup before transfer, and uses Google Drive to store and retrieve the encrypted copy. Integrity checks and recovery checks help the owner assess whether a backup is usable.</p>
+    <h2>Why Google Drive access is requested</h2>
+    <p>The utility requests the <code>drive.file</code> permission. This lets it create and work with files it creates, or files the owner explicitly authorizes for this app. It does not request general access to every file in the owner's Drive.</p>
+    <p>Drive access supports uploading encrypted backups, retrieving them for verification or recovery, and reading the metadata needed to identify them. Backup contents and Google authorization credentials are kept outside this information website.</p>
+    <h2>Who can use it</h2>
+    <p>This is a personal utility, with no public registration or commercial backup service. It has no authority to place trades. Backup scheduling is configured separately; publishing this website does not enable a backup schedule.</p>
+    <h2>Privacy and contact</h2>
+    <p>Read the privacy policy for details about data access, storage, retention and revocation. For app or privacy questions, use the user support email displayed on the Google permission screen for Portfolio Assistant Backups.</p>
+    <div class="policy-links"><a href="privacy.html">Read the privacy policy</a><a href="terms.html">Read the terms of use</a></div>
+  </main>
+  <footer><div class="wrap"><p>Portfolio Assistant Backups · Operated by Akash P Vijayan</p></div></footer>
+</body>
+</html>
